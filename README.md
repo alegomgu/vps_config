@@ -27,7 +27,7 @@ scp install.sh root@ipvps:/root/
 Conéctate:
 
 ```bash
-ssh root@207.180.232.55
+ssh root@ipvps
 ```
 
 Dale permisos de ejecución y lánzalo:
