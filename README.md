@@ -49,7 +49,7 @@ Este script instalará:
 
 Usa **Escritorio Remoto de Windows** (mstsc) o cualquier cliente RDP:
 
-- Dirección: `207.180.232.55`
+- Dirección: `ip vps`
 - Usuario: `root`
 - Escritorio: XFCE
 
