@@ -3,6 +3,7 @@
 
 Este proyecto tiene como objetivo automatizar la configuración inicial de un **VPS en Contabo con Ubuntu 22.04**, instalar **IB Gateway**, entorno gráfico, y herramientas de trading con Python.
 
+```https://contabo.com/es/vps/cloud-vps-10/?addons=1987&image=ubuntu.332&qty=1&contract=1&storage-type=cloud-vps-10-150-gb-ssd```
 ---
 
 ## 🔧 1. Subir el archivo `install.sh` al VPS
