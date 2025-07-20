@@ -17,7 +17,7 @@ scp install.sh root@IP_DEL_VPS:/root/
 Ejemplo:
 
 ```bash
-scp install.sh root@207.180.232.55:/root/
+scp install.sh root@ipvps:/root/
 ```
 
 ---
@@ -83,7 +83,7 @@ A veces el lanzador de IB Gateway no aparece por defecto. Puedes lanzarlo manual
 Primero, copia el archivo de prueba al VPS:
 
 ```bash
-scp test_connect.py root@207.180.232.55:/root/
+scp test_connect.py root@ipvps:/root/
 ```
 
 Luego, conéctate por RDP, abre una **terminal** en el escritorio remoto y ejecuta:
@@ -101,13 +101,13 @@ python3 test_connect.py
 Puedes usar `scp` para subir un directorio completo:
 
 ```bash
-scp -r /ruta/al/proyecto root@207.180.232.55:/root/
+scp -r /ruta/al/proyecto root@ipvps:/root/
 ```
 
 Ejemplo:
 
 ```bash
-scp -r C:\Users\TuUsuario\Desktop\mi_proyecto root@207.180.232.55:/root/
+scp -r C:\Users\TuUsuario\Desktop\mi_proyecto root@ipvps:/root/
 ```
 
 ---
